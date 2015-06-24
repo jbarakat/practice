@@ -1,0 +1,14 @@
+Prompt for the stopping tolerance.
+Prompt for and read the initial guess of x.
+  - Denote initial guess by pnew for now.
+  - p = "old x", pnew = "new x"
+Begin loop. Allow N iterations before giving up.
+  - Set p = pnew.
+  - Evaluate f(p) and f'(p).
+  - Compute pnew = p - f(p)/f'(p) (Newton-Raphson formula).
+  - If |pnew - p| is less than the tolerance, write answer and quit.
+  - Otherwise, continue looping.
+End loop.
+Write an error message: method did not converge in N steps.
+
+cf. http://www.physics.utah.edu/~detar/lessons/c++/nr/node3.html

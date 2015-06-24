@@ -1,0 +1,6 @@
+Horner's algorithm for polynomials
+
+Step 1: Set p = a[n]
+Step 2: Do step 3 for i from n-1 to 0, decreasing i by 1
+     Step 3: set p = a[i] + x0*p
+Step 4: The value of P(x_0) is p

@@ -1,0 +1,10 @@
+Read in a, b, c
+  - get the sign of b
+Solve for two roots
+  - for the first root, use the standard formula with the sign in front
+    of the square root matchign the sign of b
+  - for the second root, use the inverted formula with the sign in front
+    of the square root matching the sign of b
+Write the answers
+
+cf. http://www.physics.utah.edu/~detar/lessons/c++/quadratic/node5.html
